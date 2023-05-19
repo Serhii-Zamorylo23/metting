@@ -1,0 +1,121 @@
+$inter:'Inter', sans-serif;
+.header{
+    display: flex;
+    width: 1400px;
+    height: 52px;
+    background: saddlebrown;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    &_icondiv{
+        display: flex;
+        align-items: center;
+        column-gap: 7px;
+        &_svg{
+            width: 32px;
+            height: 32px;
+        }
+        &_name{
+            font-family: $inter;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    &_linkdiv{
+        width: 507px;
+        height: 20px;
+        background: violet;
+        &_nav{
+            display: flex;
+            justify-content: space-between;
+            &_link{
+                text-decoration: none;
+                font-family: $inter;
+                font-size: 500;
+                font-size: 18px;
+                color: rgba(24, 33, 109, 1);
+            }
+        }
+    }
+    &_btns{
+        display: flex;
+        column-gap: 45px;
+        height: 100%;
+        &_item{
+            cursor: pointer;
+            display: flex;
+            width: 136px;
+            height: 52px;
+            align-items: center;
+            justify-content: center;
+            font-family: $inter;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+}
+.blue{
+    background: rgba(24, 33, 109, 1);
+    color: white;
+    border-radius: 6px;
+}
+.nobg{
+    color: rgba(24, 33, 109, 1);
+}
+.main{
+    background: darkmagenta;
+    height: 200px;
+    &_left{
+        width: 498px;
+        height: 292px;
+        background: darkgreen;
+        align-items: center;
+        &_title{
+            font-family: $inter;
+            font-weight: 600;
+            font-size: 48px;
+        }
+        &_subtitle{
+            font-family: $inter;
+            font-size: 17px;
+            font-weight: 400;
+            padding-top: 16px;
+        }
+        &_btn{
+            width: 180px;
+            height: 66px;
+            margin-top: 34px;
+            background:rgba(0, 236, 208, 1);
+            border-radius: 6px;
+            border: none;
+            color:rgba(24, 33, 109, 1);
+            font-family: $inter;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+    &_right{
+        width: 786px;
+        height: 518.35px;
+        background: saddlebrown;
+        &_img{
+            position: absolute;
+            right: 230px;
+            width: 786px;
+            height: 518.35px; 
+        }
+    }
+    &_imgAndText{
+        display: flex;
+        width: 1189px;
+        background: darkorange;
+        margin: 0 auto;
+        margin-top: 50px;
+        align-items: center;
+    }
+    &_stats{
+        width: 200px;
+        height: 150px;
+        background: chartreuse;
+    }
+}
