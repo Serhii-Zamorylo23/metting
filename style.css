@@ -68,7 +68,8 @@
 
 .main {
   background: darkmagenta;
-  height: 200px;
+  width: 1188px;
+  margin: 0 auto;
 }
 .main_left {
   width: 498px;
@@ -121,5 +122,4 @@
 .main_stats {
   width: 200px;
   height: 150px;
-  background: chartreuse;
 }/*# sourceMappingURL=style.css.map */

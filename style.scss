@@ -64,7 +64,8 @@ $inter:'Inter', sans-serif;
 }
 .main{
     background: darkmagenta;
-    height: 200px;
+    width: 1188px;
+    margin: 0 auto;
     &_left{
         width: 498px;
         height: 292px;
@@ -116,6 +117,5 @@ $inter:'Inter', sans-serif;
     &_stats{
         width: 200px;
         height: 150px;
-        background: chartreuse;
     }
 }
