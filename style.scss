@@ -67,7 +67,7 @@ $inter:'Inter', sans-serif;
     width: 1188px;
     margin: 0 auto;
     &_left{
-        width: 498px;
+        width:498px;
         height: 292px;
         background: darkgreen;
         align-items: center;
@@ -96,12 +96,11 @@ $inter:'Inter', sans-serif;
         }
     }
     &_right{
-        width: 786px;
         height: 518.35px;
         background: saddlebrown;
         &_img{
             position: absolute;
-            right: 230px;
+            right: 165px;
             width: 786px;
             height: 518.35px; 
         }
@@ -115,7 +114,120 @@ $inter:'Inter', sans-serif;
         align-items: center;
     }
     &_stats{
-        width: 200px;
+        width: 1107px;
         height: 150px;
+        background: tomato;
+        display: flex;
+        justify-content: space-between;
+        &_left{
+            Width:494px;
+            Height:150px;
+            &_text{
+                font-family: $inter;
+                font-weight: 600;
+                font-size: 36px;
+                color: rgba(24, 33, 109, 1);
+                line-height: 50px;
+            }
+        }
+        &_right{
+            display: flex;
+            width: 336px;
+            height: 142px;
+            background: darkgoldenrod;
+            justify-content: space-between;
+            &_download{
+                width: 137px;
+                height: 134px;
+                background: yellow;
+                &_title{
+                    font-family: $inter;
+                    font-weight: 700;
+                    font-size: 60px;
+                    color:rgba(24, 33, 109, 1);
+                }
+                &_svg{
+                    padding-top: 10px;
+                    width: 16px;
+                    height: 14px;
+                }
+                &_subtitle{
+                    font-family: $inter;
+                    font-weight: 400;
+                    font-size: 16px;
+                    padding-top: 12px;
+                }
+            }
+            &_rating{
+                width: 107.28px;
+                height: 134px;
+                background: blue;
+                &_title{
+                    font-family: $inter;
+                    font-weight: 700;
+                    font-size: 60px;
+                    color:rgba(24, 33, 109, 1);
+                }
+                &_svg{
+                    margin-top: 8.04px;
+                    Width:16.69px;
+                    Height:15.9px;
+                }
+                &_subtitle{
+                    font-family: $inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: rgba(24, 33, 109, 1);
+                    padding-top: 12.04px;
+                }
+            }
+        }
+    }
+    &_partners{
+        display: flex;
+        width: 1110px;
+        height: 34.88px;
+        background: burlywood;
+        margin-left: 30px;
+        align-items: center;
+        column-gap: 79.73px;
+        &_airbnblogo{
+            width: 112.12px;
+            height: 34.88px;
+        }
+        &_layer2{
+            Width:104.65px;
+            Height:29.91px;
+        }
+        &_google{
+            width: 104.65px;
+            height: 34.88px;
+        }
+        &_microsoft{
+            width: 151.99px;
+            height: 32.39px;   
+        }
+        &_fedex{
+            Width:99.54px;
+            Height:30.06px;
+        }
+    }
+    &_features{
+        display: flex;
+        justify-content: center;
+        font-family: $inter;
+        font-weight: 600;
+        font-size: 48px;
+        padding-top: 130.12px;
+    }
+    &_subfeature{
+        font-family: $inter;
+        font-size: 16px;
+        font-weight: 400;
+        Width:542px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30px;
+        padding-top: 12px;
     }
 }

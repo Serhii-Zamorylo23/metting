@@ -101,13 +101,12 @@
   font-weight: 500;
 }
 .main_right {
-  width: 786px;
   height: 518.35px;
   background: saddlebrown;
 }
 .main_right_img {
   position: absolute;
-  right: 230px;
+  right: 165px;
   width: 786px;
   height: 518.35px;
 }
@@ -120,6 +119,120 @@
   align-items: center;
 }
 .main_stats {
-  width: 200px;
+  width: 1107px;
   height: 150px;
+  background: tomato;
+  display: flex;
+  justify-content: space-between;
+}
+.main_stats_left {
+  Width: 494px;
+  Height: 150px;
+}
+.main_stats_left_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: rgb(24, 33, 109);
+  line-height: 50px;
+}
+.main_stats_right {
+  display: flex;
+  width: 336px;
+  height: 142px;
+  background: darkgoldenrod;
+  justify-content: space-between;
+}
+.main_stats_right_download {
+  width: 137px;
+  height: 134px;
+  background: yellow;
+}
+.main_stats_right_download_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: rgb(24, 33, 109);
+}
+.main_stats_right_download_svg {
+  padding-top: 10px;
+  width: 16px;
+  height: 14px;
+}
+.main_stats_right_download_subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 12px;
+}
+.main_stats_right_rating {
+  width: 107.28px;
+  height: 134px;
+  background: blue;
+}
+.main_stats_right_rating_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: rgb(24, 33, 109);
+}
+.main_stats_right_rating_svg {
+  margin-top: 8.04px;
+  Width: 16.69px;
+  Height: 15.9px;
+}
+.main_stats_right_rating_subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+  padding-top: 12.04px;
+}
+.main_partners {
+  display: flex;
+  width: 1110px;
+  height: 34.88px;
+  background: burlywood;
+  margin-left: 30px;
+  align-items: center;
+  -moz-column-gap: 79.73px;
+       column-gap: 79.73px;
+}
+.main_partners_airbnblogo {
+  width: 112.12px;
+  height: 34.88px;
+}
+.main_partners_layer2 {
+  Width: 104.65px;
+  Height: 29.91px;
+}
+.main_partners_google {
+  width: 104.65px;
+  height: 34.88px;
+}
+.main_partners_microsoft {
+  width: 151.99px;
+  height: 32.39px;
+}
+.main_partners_fedex {
+  Width: 99.54px;
+  Height: 30.06px;
+}
+.main_features {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  padding-top: 130.12px;
+}
+.main_subfeature {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  Width: 542px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 12px;
 }/*# sourceMappingURL=style.css.map */
