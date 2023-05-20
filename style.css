@@ -235,4 +235,181 @@
   margin: 0 auto;
   line-height: 30px;
   padding-top: 12px;
+}
+.main_advantages {
+  display: flex;
+  width: 1120px;
+  background: rgb(100, 5, 0);
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.main_advantages_price {
+  width: 320px;
+  height: 267px;
+  background: firebrick;
+}
+.main_advantages_price_SVG {
+  width: 72px;
+  height: 72px;
+}
+.main_advantages_price_title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 28px;
+  color: rgb(24, 33, 109);
+}
+.main_advantages_price_subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: gray;
+  padding-top: 14px;
+}
+.main_advantages_price_more {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 30px;
+  color: rgb(24, 33, 109);
+}
+.main_advantages_Collaboration {
+  width: 320px;
+  background: rgb(139, 132, 0);
+}
+.main_advantages_Collaboration_medalsvg {
+  width: 55.58px;
+  height: 72px;
+}
+.main_advantages_Collaboration_medalsvg2 {
+  width: 71.15px;
+  height: 72px;
+}
+.main_advantages_Collaboration_title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(24, 33, 109);
+  padding-top: 28px;
+}
+.main_advantages_Collaboration_subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: gray;
+}
+.main_advantages_Collaboration_more {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(24, 33, 109);
+  padding-top: 30px;
+}
+.main_download {
+  display: flex;
+  width: 100%;
+  height: 593px;
+  background: #005FEC;
+  margin-top: 130px;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.main_download_leftContent {
+  width: 487px;
+  height: 307px;
+  background: tomato;
+}
+.main_download_leftContent_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+}
+.main_download_leftContent_subtitle {
+  padding-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.main_download_leftContent_btn {
+  cursor: pointer;
+  width: 160px;
+  height: 52px;
+  border-radius: 6px;
+  border: none;
+  background: #a9ec00;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+.main_download_rightContent {
+  width: 690px;
+  height: 437px;
+}
+.main_freeTrall {
+  display: flex;
+  width: 1091px;
+  height: 100%;
+  background: salmon;
+}
+.main_freeTrall_contentleft {
+  width: 400px;
+  height: 450px;
+  background: url(/img/Group\ 862.png);
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock {
+  position: absolute;
+  width: 184px;
+  height: 150px;
+  background: #da3535;
+  box-shadow: -4px 8px 20px rgba(24, 33, 109, 0.05);
+  border-radius: 6px;
+  margin-top: 358px;
+  margin-left: 317px;
+  text-align: center;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_WeeklyMettingText {
+  padding-top: 18px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_userPannel {
+  display: flex;
+  width: 132px;
+  height: 36px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_userPannel_circle {
+  width: 36px;
+  height: 36px;
+  background: darkblue;
+  border-radius: 50%;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background: #DAE9FF;
+  color: rgb(0, 95, 236);
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 23px;
+}
+.main_freeTrall_contentleft_img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.main_freeTrall_contentRight {
+  width: 496px;
+  height: 444px;
+  background: saddlebrown;
+  margin-left: 196px;
 }/*# sourceMappingURL=style.css.map */
