@@ -352,13 +352,18 @@
 .main_freeTrall {
   display: flex;
   width: 1091px;
-  height: 100%;
+  height: 508px;
   background: salmon;
 }
 .main_freeTrall_contentleft {
   width: 400px;
   height: 450px;
   background: url(/img/Group\ 862.png);
+}
+.main_freeTrall_contentleft_img {
+  position: absolute;
+  width: 100px;
+  height: 118px;
 }
 .main_freeTrall_contentleft_WeeklyMettingBlock {
   position: absolute;
@@ -412,4 +417,668 @@
   height: 444px;
   background: saddlebrown;
   margin-left: 196px;
+}
+.main_freeTrall_contentRight_title {
+  width: 496px;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  color: rgb(24, 33, 109);
+}
+.main_freeTrall_contentRight_subtitle {
+  width: 446px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 16px;
+  color: #18216D;
+  line-height: 30px;
+}
+.main_freeTrall_contentRight_advantages {
+  width: 309.98px;
+  height: 107.97px;
+  margin-top: 30px;
+}
+.main_freeTrall_contentRight_advantages_faster {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16.01px;
+       column-gap: 16.01px;
+}
+.main_freeTrall_contentRight_advantages_faster_tick {
+  width: 19.97px;
+  height: 19.97px;
+}
+.main_freeTrall_contentRight_advantages_faster_text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(24, 33, 109);
+}
+.main_freeTrall_contentRight_advantages_productivity {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16.01px;
+       column-gap: 16.01px;
+  margin-top: 24.03px;
+}
+.main_freeTrall_contentRight_advantages_productivity_tick {
+  width: 19.97px;
+  height: 19.97px;
+}
+.main_freeTrall_contentRight_advantages_productivity_text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(24, 33, 109);
+}
+.main_freeTrall_contentRight_advantages_relationships {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16.01px;
+       column-gap: 16.01px;
+  margin-top: 24.03px;
+}
+.main_freeTrall_contentRight_advantages_relationships_tick {
+  width: 19.97px;
+  height: 19.97px;
+}
+.main_freeTrall_contentRight_advantages_relationships_text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(24, 33, 109);
+}
+.main_freeTrall_contentRight_btn {
+  width: 164px;
+  height: 54px;
+  background: #005FEC;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 50.03px;
+}
+.main_plantext {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 131px;
+}
+.main_subtext {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 542px;
+  height: 60px;
+  padding-top: 20px;
+}
+.main_duration {
+  display: flex;
+  width: 272px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: #005FEC;
+  opacity: 0.1;
+  align-items: center;
+  justify-content: center;
+}
+.main_duration_Annually {
+  width: 135px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.main_duration_Annually:hover {
+  background: #FFFFFF;
+  border-radius: 6px;
+  color: rgb(0, 95, 236);
+  transition-duration: 0.3s;
+}
+.main_duration_Annually:focus {
+  background: #FFFFFF;
+  border-radius: 6px;
+  color: rgb(0, 95, 236);
+  transition-duration: 0.2s;
+}
+.main_duration_Monthly {
+  width: 135px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.main_duration_Monthly:hover {
+  background: #FFFFFF;
+  border-radius: 6px;
+  color: rgb(0, 95, 236);
+  transition-duration: 0.3s;
+}
+.main_duration_Monthly:focus {
+  background: #FFFFFF;
+  border-radius: 6px;
+  color: rgb(0, 95, 236);
+  transition-duration: 0.2s;
+}
+.main_pricePlan {
+  display: flex;
+  width: 1155px;
+  height: 620px;
+  background: darkkhaki;
+  margin-top: 80px;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+}
+.main_pricePlan_Basic {
+  Width: 355px;
+  Height: 620px;
+  background: forestgreen;
+  border: 1px solid #232629;
+  border-radius: 10px;
+}
+.main_pricePlan_Basic_header {
+  width: 355px;
+  height: 160px;
+  background-color: red;
+  border-bottom: 1px solid #000000;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.main_pricePlan_Basic_header_type {
+  padding-top: 22px;
+  padding-left: 41px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Basic_header_price {
+  padding-top: 10px;
+  padding-left: 41px;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Basic_advantages {
+  width: 249px;
+  height: 269px;
+  background: tomato;
+  margin-top: 39px;
+  margin-left: 41px;
+}
+.main_pricePlan_Basic_advantages_number {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Basic_advantages_number_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Basic_advantages_number_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Basic_advantages_security {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Basic_advantages_security_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Basic_advantages_security_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Basic_advantages_demonstration {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Basic_advantages_demonstration_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Basic_advantages_demonstration_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Basic_advantages_DesktopMobile {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Basic_advantages_DesktopMobile_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Basic_advantages_DesktopMobile_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Basic_advantages_limitMetting {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Basic_advantages_limitMetting_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Basic_advantages_limitMetting_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Basic_advantages_Recording {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Basic_advantages_Recording_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Basic_advantages_Recording_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #18216D;
+  opacity: 0.5;
+}
+.main_pricePlan_Basic_advantages_Single {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Basic_advantages_Single_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Basic_advantages_Single_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #18216D;
+  opacity: 0.5;
+}
+.main_pricePlan_Basic_btn {
+  width: 181px;
+  height: 52px;
+  margin-left: 41px;
+  margin-top: 40px;
+  background: #005FEC;
+  opacity: 0.1;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition-duration: 0.2s;
+}
+.main_pricePlan_Basic_btn:hover {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: rgb(0, 95, 236);
+  transition-duration: 0.3s;
+}
+.main_pricePlan_Pro {
+  Width: 355px;
+  Height: 620px;
+  background: rgb(139, 81, 34);
+  border: 1px solid #232629;
+  border-radius: 10px;
+}
+.main_pricePlan_Pro_header {
+  width: 355px;
+  height: 160px;
+  background-color: red;
+  border-bottom: 1px solid #000000;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.main_pricePlan_Pro_header_type {
+  padding-top: 22px;
+  padding-left: 41px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Pro_header_price {
+  padding-top: 10px;
+  padding-left: 41px;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Pro_advantages {
+  width: 249px;
+  height: 269px;
+  background: tomato;
+  margin-top: 39px;
+  margin-left: 41px;
+}
+.main_pricePlan_Pro_advantages_number {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Pro_advantages_number_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Pro_advantages_number_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Pro_advantages_security {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Pro_advantages_security_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Pro_advantages_security_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Pro_advantages_demonstration {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Pro_advantages_demonstration_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Pro_advantages_demonstration_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Pro_advantages_DesktopMobile {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Pro_advantages_DesktopMobile_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Pro_advantages_DesktopMobile_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Pro_advantages_limitMetting {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Pro_advantages_limitMetting_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Pro_advantages_limitMetting_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Pro_advantages_Recording {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Pro_advantages_Recording_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Pro_advantages_Recording_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #18216D;
+}
+.main_pricePlan_Pro_advantages_Single {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Pro_advantages_Single_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Pro_advantages_Single_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #18216D;
+  opacity: 0.5;
+}
+.main_pricePlan_Pro_btn {
+  width: 181px;
+  height: 52px;
+  margin-left: 41px;
+  margin-top: 40px;
+  background: #005FEC;
+  opacity: 0.1;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition-duration: 0.2s;
+}
+.main_pricePlan_Pro_btn:hover {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: rgb(0, 95, 236);
+  transition-duration: 0.3s;
+}
+.main_pricePlan_Business {
+  Width: 355px;
+  Height: 620px;
+  background: rgb(34, 139, 59);
+  border: 1px solid #232629;
+  border-radius: 10px;
+}
+.main_pricePlan_Business_header {
+  width: 355px;
+  height: 160px;
+  background-color: red;
+  border-bottom: 1px solid #000000;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.main_pricePlan_Business_header_type {
+  padding-top: 22px;
+  padding-left: 41px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Business_header_price {
+  padding-top: 10px;
+  padding-left: 41px;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Business_advantages {
+  width: 249px;
+  height: 269px;
+  background: tomato;
+  margin-top: 39px;
+  margin-left: 41px;
+}
+.main_pricePlan_Business_advantages_number {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Business_advantages_number_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Business_advantages_number_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Business_advantages_security {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Business_advantages_security_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Business_advantages_security_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Business_advantages_demonstration {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Business_advantages_demonstration_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Business_advantages_demonstration_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Business_advantages_DesktopMobile {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Business_advantages_DesktopMobile_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Business_advantages_DesktopMobile_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Business_advantages_limitMetting {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Business_advantages_limitMetting_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Business_advantages_limitMetting_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(24, 33, 109);
+}
+.main_pricePlan_Business_advantages_Recording {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Business_advantages_Recording_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Business_advantages_Recording_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #18216D;
+}
+.main_pricePlan_Business_advantages_Single {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.main_pricePlan_Business_advantages_Single_circleTick {
+  width: 22px;
+  height: 22.39px;
+}
+.main_pricePlan_Business_advantages_Single_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #18216D;
+  opacity: 0.5;
+}
+.main_pricePlan_Business_btn {
+  width: 181px;
+  height: 52px;
+  margin-left: 41px;
+  margin-top: 40px;
+  background: #005FEC;
+  opacity: 0.1;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition-duration: 0.2s;
+}
+.main_pricePlan_Business_btn:hover {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: rgb(0, 95, 236);
+  transition-duration: 0.3s;
+}
+
+span {
+  color: rgb(109, 109, 109);
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,5 @@
 $inter:'Inter', sans-serif;
+$poppins:'Poppins', sans-serif;
 .header{
     display: flex;
     width: 1400px;
@@ -345,12 +346,17 @@ $inter:'Inter', sans-serif;
     &_freeTrall{
         display: flex;
         width: 1091px;
-        height: 100%;
+        height: 508px;
         background: salmon;
         &_contentleft{
             width: 400px;
             height: 450px;
             background: url(/img/Group\ 862.png);
+            &_img{
+                position: absolute;
+                width: 100px;
+                height: 118px;
+            }
             &_WeeklyMettingBlock{
                 position: absolute;
                 width: 184px;
@@ -404,6 +410,668 @@ $inter:'Inter', sans-serif;
             height: 444px;
             background: saddlebrown;
             margin-left: 196px;
+            &_title{
+                width: 496px;
+                font-family: $inter;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 48px;
+                color:rgba(24, 33, 109, 1);
+            }
+            &_subtitle{
+                width: 446px;
+                font-family: $inter;
+                font-size: 16px;
+                font-weight: 400;
+                padding-top: 16px;
+                color: #18216D;
+                line-height: 30px;
+            }
+            &_advantages{
+                width: 309.98px;
+                height: 107.97px;
+                margin-top: 30px;
+                &_faster{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 16.01px;
+                    &_tick{
+                        width: 19.97px;
+                        height: 19.97px;
+                    }
+                    &_text{
+                        font-family: $inter;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: rgba(24, 33, 109, 1);
+                    }
+                }
+                &_productivity{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 16.01px;
+                    margin-top: 24.03px;
+                    &_tick{
+                        width: 19.97px;
+                        height: 19.97px;
+                    }
+                    &_text{
+                        font-family: $inter;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: rgba(24, 33, 109, 1);
+                    }
+                }
+                &_relationships{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 16.01px;
+                    margin-top: 24.03px;
+                    &_tick{
+                        width: 19.97px;
+                        height: 19.97px;
+                    }
+                    &_text{
+                        font-family: $inter;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: rgba(24, 33, 109, 1);
+                    }
+                }
+            }
+            &_btn{
+                width: 164px;
+                height: 54px;
+                background: #005FEC;
+                border-radius: 6px;
+                border: none;
+                color: white;
+                font-family: $inter;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 50.03px;
+            }
         }
     }
+    &_plantext{
+        display: flex;
+        justify-content: center;
+        font-family: $inter;
+        font-size: 48px;
+        font-weight: 600;
+        padding-top: 131px;
+    }
+    &_subtext{
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        font-family: $inter;
+        font-size: 16px;
+        font-weight: 400;
+        width: 542px;
+        height: 60px;
+        padding-top: 20px;
+    }
+    &_duration{
+        display: flex;
+        width: 272px;
+        height: 60px;
+        margin: 0 auto;
+        border-radius: 6px;
+        background: #005FEC;
+        opacity: 0.1;
+        align-items: center;
+        justify-content: center;
+        &_Annually{
+            width: 135px;
+            height: 48px;
+            background: none;
+            border:none;
+            cursor: pointer;
+            &:hover{
+                background: #FFFFFF;
+                border-radius: 6px;
+                color:rgba(0, 95, 236, 1);
+                transition-duration: 0.3s;
+            }
+            &:focus{
+                background: #FFFFFF;
+                border-radius: 6px;
+                color:rgba(0, 95, 236, 1);
+                transition-duration: 0.2s;
+            }
+        }
+        &_Monthly{
+            width: 135px;
+            height: 48px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            &:hover{
+                background: #FFFFFF;
+                border-radius: 6px;
+                color:rgba(0, 95, 236, 1);
+                transition-duration: 0.3s;
+            }
+            &:focus{
+                background: #FFFFFF;
+                border-radius: 6px;
+                color:rgba(0, 95, 236, 1);
+                transition-duration: 0.2s;
+            }
+        }
+    }
+    &_pricePlan{
+        display: flex;
+        width: 1155px;
+        height: 620px;
+        background: darkkhaki;
+        margin-top: 80px;
+        column-gap: 45px;
+        &_Basic{
+            Width:355px;
+            Height:620px;
+            background: forestgreen;
+            border: 1px solid #232629;
+            border-radius: 10px;
+            &_header{
+                width: 355px;
+                height: 160px;
+                background-color: red;
+                border-bottom: 1px solid #000000;
+                border-radius: 10px;
+                border-bottom-left-radius:0;
+                border-bottom-right-radius:0;
+                &_type{
+                    padding-top: 22px;
+                    padding-left: 41px;
+                    font-family: $inter;
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: rgba(24, 33, 109, 1);
+                }
+                &_price{
+                    padding-top: 10px;
+                    padding-left: 41px;
+                    font-family: $inter;
+                    font-size: 36px;
+                    font-weight: 600;
+                    color: rgba(24, 33, 109, 1);
+                }
+            }
+            &_advantages{
+                width: 249px;
+                height: 269px;
+                background: tomato;
+                margin-top: 39px;
+                margin-left: 41px;
+               &_number{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_security{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_demonstration{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_DesktopMobile{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_limitMetting{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_Recording{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #18216D;
+                    opacity: 0.5;
+                }
+               }
+               &_Single{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #18216D;
+                    opacity: 0.5;
+                }
+               }
+            }
+            &_btn{
+                width: 181px;
+                height: 52px;
+                margin-left: 41px;
+                margin-top: 40px;
+                background: #005FEC;
+                opacity: 0.1;
+                border-radius: 6px;
+                font-family: $inter;
+                font-size: 16px;
+                font-weight: 400;
+                transition-duration: 0.2s;
+
+                &:hover{
+                    font-family: $inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #FFFF;
+                    background: rgba(0, 95, 236, 1);
+                    transition-duration: 0.3s;
+                }
+            }
+        }
+        &_Pro{
+            Width:355px;
+            Height:620px;
+            background: rgb(139, 81, 34);
+            border: 1px solid #232629;
+            border-radius: 10px;
+            &_header{
+                width: 355px;
+                height: 160px;
+                background-color: red;
+                border-bottom: 1px solid #000000;
+                border-radius: 10px;
+                border-bottom-left-radius:0;
+                border-bottom-right-radius:0;
+                &_type{
+                    padding-top: 22px;
+                    padding-left: 41px;
+                    font-family: $inter;
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: rgba(24, 33, 109, 1);
+                }
+                &_price{
+                    padding-top: 10px;
+                    padding-left: 41px;
+                    font-family: $inter;
+                    font-size: 36px;
+                    font-weight: 600;
+                    color: rgba(24, 33, 109, 1);
+                }
+            }
+            &_advantages{
+                width: 249px;
+                height: 269px;
+                background: tomato;
+                margin-top: 39px;
+                margin-left: 41px;
+               &_number{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_security{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_demonstration{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_DesktopMobile{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_limitMetting{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_Recording{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #18216D;
+                }
+               }
+               &_Single{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #18216D;
+                    opacity: 0.5;
+                }
+               }
+            }
+            &_btn{
+                width: 181px;
+                height: 52px;
+                margin-left: 41px;
+                margin-top: 40px;
+                background: #005FEC;
+                opacity: 0.1;
+                border-radius: 6px;
+                font-family: $inter;
+                font-size: 16px;
+                font-weight: 400;
+                transition-duration: 0.2s;
+
+                &:hover{
+                    font-family: $inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #FFFF;
+                    background: rgba(0, 95, 236, 1);
+                    transition-duration: 0.3s;
+                }
+            }
+        }
+        &_Business{
+            Width:355px;
+            Height:620px;
+            background: rgb(34, 139, 59);
+            border: 1px solid #232629;
+            border-radius: 10px;
+            &_header{
+                width: 355px;
+                height: 160px;
+                background-color: red;
+                border-bottom: 1px solid #000000;
+                border-radius: 10px;
+                border-bottom-left-radius:0;
+                border-bottom-right-radius:0;
+                &_type{
+                    padding-top: 22px;
+                    padding-left: 41px;
+                    font-family: $inter;
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: rgba(24, 33, 109, 1);
+                }
+                &_price{
+                    padding-top: 10px;
+                    padding-left: 41px;
+                    font-family: $inter;
+                    font-size: 36px;
+                    font-weight: 600;
+                    color: rgba(24, 33, 109, 1);
+                }
+            }
+            &_advantages{
+                width: 249px;
+                height: 269px;
+                background: tomato;
+                margin-top: 39px;
+                margin-left: 41px;
+               &_number{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_security{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_demonstration{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_DesktopMobile{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_limitMetting{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color:rgba(24, 33, 109, 1);
+                }
+               }
+               &_Recording{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #18216D;
+                }
+               }
+               &_Single{
+                display: flex;
+                align-items: center;
+                margin-top: 17px;
+                &_circleTick{
+                    width: 22px;
+                    height: 22.39px;
+                }
+                &_text{
+                    font-family: $poppins;
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #18216D;
+                    opacity: 0.5;
+                }
+               }
+            }
+            &_btn{
+                width: 181px;
+                height: 52px;
+                margin-left: 41px;
+                margin-top: 40px;
+                background: #005FEC;
+                opacity: 0.1;
+                border-radius: 6px;
+                font-family: $inter;
+                font-size: 16px;
+                font-weight: 400;
+                transition-duration: 0.2s;
+
+                &:hover{
+                    font-family: $inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #FFFF;
+                    background: rgba(0, 95, 236, 1);
+                    transition-duration: 0.3s;
+                }
+            }
+        } 
+    }
+}
+span{
+    color:rgba(109, 109, 109, 1);
 }
