@@ -379,6 +379,7 @@
 }
 .main_freeTrall_contentleft_WeeklyMettingBlock_userPannel {
   display: flex;
+  position: relative;
   width: 132px;
   height: 36px;
   margin: 0 auto;
@@ -387,8 +388,27 @@
 .main_freeTrall_contentleft_WeeklyMettingBlock_userPannel_circle {
   width: 36px;
   height: 36px;
-  background: darkblue;
+  border: 1.5px solid #d1d1d1;
   border-radius: 50%;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_userPannel_circle_absolute_1 {
+  position: absolute;
+  left: 25px;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_userPannel_circle_absolute_2 {
+  position: absolute;
+  left: 50px;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_userPannel_circle_absolute_3 {
+  position: absolute;
+  left: 75px;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_userPannel_circle_absolute_4 {
+  position: absolute;
+  left: 100px;
+}
+.main_freeTrall_contentleft_WeeklyMettingBlock_userPannel_circle_absolute_4_bluebg {
+  background: blue;
 }
 .main_freeTrall_contentleft_WeeklyMettingBlock_btn {
   width: 100px;
@@ -1075,22 +1095,22 @@
   transition-duration: 0.3s;
 }
 .main_poinContainer {
+  overflow: hidden;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 122px;
   height: 118px;
-  background: rgb(222, 219, 7);
   -moz-column-gap: 10px;
        column-gap: 10px;
   top: -1187px;
-  left: 69px;
+  left: -69px;
 }
 .main_poinContainer_item {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #0008ec;
+  background: rgba(0, 94, 236, 0.062745098);
 }
 
 span {

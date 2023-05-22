@@ -1,5 +1,9 @@
 $inter:'Inter', sans-serif;
 $poppins:'Poppins', sans-serif;
+@mixin cirkle($left){
+    position: absolute;
+    left: $left;
+}
 .header{
     display: flex;
     width: 1400px;
@@ -371,6 +375,7 @@ $poppins:'Poppins', sans-serif;
                 }
                 &_userPannel{
                     display: flex;
+                    position: relative;
                     width: 132px;
                     height: 36px;
                     margin: 0 auto;
@@ -378,8 +383,25 @@ $poppins:'Poppins', sans-serif;
                     &_circle{
                         width: 36px;
                         height: 36px;
-                        background: darkblue;
-                        border-radius:50%;
+                        border: 1.5px solid #d1d1d1;
+                        border-radius: 50%;
+                        &_absolute{
+                            &_1{
+                                @include cirkle(25px);
+                            }
+                            &_2{
+                                @include cirkle(50px);
+                            }
+                            &_3{
+                                @include cirkle(75px);
+                            }
+                            &_4{
+                                @include cirkle(100px);
+                                &_bluebg{
+                                    background:blue;
+                                }
+                            }
+                        }
                     }
                 }
                 &_btn{
@@ -1069,20 +1091,20 @@ $poppins:'Poppins', sans-serif;
         } 
     }
     &_poinContainer{
+        overflow: hidden;
         position: relative;
         display: flex;
         flex-wrap: wrap;
         width: 122px;
         height: 118px;
-        background: rgb(222, 219, 7);
         column-gap: 10px;
         top: -1187px;
-        left: 69px;
+        left: -69px;
         &_item{
             width: 6px;
             height: 6px;
             border-radius: 50%;
-            background: #0008ec;
+            background: #005eec10
         }
     }
 }
