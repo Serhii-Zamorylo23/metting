@@ -67,6 +67,7 @@ $poppins:'Poppins', sans-serif;
     background: darkmagenta;
     width: 1188px;
     margin: 0 auto;
+
     &_left{
         width:498px;
         height: 292px;
@@ -352,11 +353,6 @@ $poppins:'Poppins', sans-serif;
             width: 400px;
             height: 450px;
             background: url(/img/Group\ 862.png);
-            &_img{
-                position: absolute;
-                width: 100px;
-                height: 118px;
-            }
             &_WeeklyMettingBlock{
                 position: absolute;
                 width: 184px;
@@ -522,6 +518,7 @@ $poppins:'Poppins', sans-serif;
         opacity: 0.1;
         align-items: center;
         justify-content: center;
+        z-index: -1;
         &_Annually{
             width: 135px;
             height: 48px;
@@ -1070,6 +1067,21 @@ $poppins:'Poppins', sans-serif;
                 }
             }
         } 
+    }
+    &_poinContainer{
+        position: absolute;
+        top: 2429px;
+        left: 0;
+        display: flex;
+        width: 122px;
+        height: 118px;
+        background: rgb(222, 219, 7);
+        &_item{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #0008ec;
+        }
     }
 }
 span{

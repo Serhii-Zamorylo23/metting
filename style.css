@@ -360,11 +360,6 @@
   height: 450px;
   background: url(/img/Group\ 862.png);
 }
-.main_freeTrall_contentleft_img {
-  position: absolute;
-  width: 100px;
-  height: 118px;
-}
 .main_freeTrall_contentleft_WeeklyMettingBlock {
   position: absolute;
   width: 184px;
@@ -531,6 +526,7 @@
   opacity: 0.1;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 .main_duration_Annually {
   width: 135px;
@@ -1077,6 +1073,21 @@
   color: white;
   background: rgb(0, 95, 236);
   transition-duration: 0.3s;
+}
+.main_poinContainer {
+  position: absolute;
+  top: 2429px;
+  left: 0;
+  display: flex;
+  width: 122px;
+  height: 118px;
+  background: rgb(222, 219, 7);
+}
+.main_poinContainer_item {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #0008ec;
 }
 
 span {
