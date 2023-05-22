@@ -1075,13 +1075,16 @@
   transition-duration: 0.3s;
 }
 .main_poinContainer {
-  position: absolute;
-  top: 2429px;
-  left: 0;
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   width: 122px;
   height: 118px;
   background: rgb(222, 219, 7);
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  top: 0;
+  left: -1187px;
 }
 .main_poinContainer_item {
   width: 6px;
