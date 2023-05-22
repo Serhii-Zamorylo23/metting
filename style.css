@@ -1083,8 +1083,8 @@
   background: rgb(222, 219, 7);
   -moz-column-gap: 10px;
        column-gap: 10px;
-  top: 0;
-  left: -1187px;
+  top: -1187px;
+  left: 69px;
 }
 .main_poinContainer_item {
   width: 6px;
