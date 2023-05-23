@@ -365,7 +365,6 @@
   width: 184px;
   height: 150px;
   background: #da3535;
-  box-shadow: -4px 8px 20px rgba(24, 33, 109, 0.05);
   border-radius: 6px;
   margin-top: 358px;
   margin-left: 317px;
@@ -542,11 +541,10 @@
   height: 60px;
   margin: 0 auto;
   border-radius: 6px;
-  background: #005FEC;
-  opacity: 0.1;
+  background: rgba(0, 94, 236, 0.062745098);
   align-items: center;
-  justify-content: center;
-  z-index: -1;
+  justify-content: flex-start;
+  padding: 0 6px;
 }
 .main_duration_Annually {
   width: 135px;
