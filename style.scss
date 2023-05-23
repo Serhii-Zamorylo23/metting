@@ -69,7 +69,7 @@ $poppins:'Poppins', sans-serif;
 }
 .main{
     background: darkmagenta;
-    width: 1188px;
+    width: 1196px;
     margin: 0 auto;
 
     &_left{
@@ -396,9 +396,7 @@ $poppins:'Poppins', sans-serif;
                             }
                             &_4{
                                 @include cirkle(100px);
-                                &_bluebg{
-                                    background:blue;
-                                }
+
                             }
                         }
                     }
@@ -735,12 +733,12 @@ $poppins:'Poppins', sans-serif;
                 height: 52px;
                 margin-left: 41px;
                 margin-top: 40px;
-                background: #005FEC;
-                opacity: 0.1;
+                background: #005eec10;
                 border-radius: 6px;
                 font-family: $inter;
                 font-size: 16px;
                 font-weight: 400;
+                border: none;
                 transition-duration: 0.2s;
 
                 &:hover{
@@ -902,8 +900,8 @@ $poppins:'Poppins', sans-serif;
                 height: 52px;
                 margin-left: 41px;
                 margin-top: 40px;
-                background: #005FEC;
-                opacity: 0.1;
+                background: #005eec10;
+                border: none;
                 border-radius: 6px;
                 font-family: $inter;
                 font-size: 16px;
@@ -1060,7 +1058,6 @@ $poppins:'Poppins', sans-serif;
                     font-size: 17px;
                     font-weight: 400;
                     color: #18216D;
-                    opacity: 0.5;
                 }
                }
             }
@@ -1069,8 +1066,8 @@ $poppins:'Poppins', sans-serif;
                 height: 52px;
                 margin-left: 41px;
                 margin-top: 40px;
-                background: #005FEC;
-                opacity: 0.1;
+                background: #005eec10;
+                border: none;
                 border-radius: 6px;
                 font-family: $inter;
                 font-size: 16px;
@@ -1089,7 +1086,7 @@ $poppins:'Poppins', sans-serif;
         } 
     }
     &_poinContainer{
-        overflow: hidden;
+        z-index: -1;
         position: relative;
         display: flex;
         flex-wrap: wrap;
@@ -1104,6 +1101,140 @@ $poppins:'Poppins', sans-serif;
             border-radius: 50%;
             background: #005eec10
         }
+    }
+    &_TestimonialContainer{
+        display: flex;
+        width: 1168px;
+        height: 450px;
+        background: gold;
+        justify-content: space-between;
+        margin-top: 55px;
+        &_left{
+            width: 616px;
+            background: salmon;
+            margin-top: 55px;
+            &_feedback{
+                font-family: $inter;
+                Weight:500;
+                font-size: 24px;
+                Style:italic;
+                line-height: 44px;
+            }
+            &_personalData{
+                width: 130px;
+                background: gray;
+                column-gap: 6px;
+                margin-top: 33px;
+            }
+            &_autor{
+                font-family: $inter;
+                font-weight: 500;
+                font-size: 26px;
+                color:rgba(24, 33, 109, 1);
+            }
+            &_data{
+                font-family: $inter;
+                font-size: 16px;
+                font-weight: 400;
+                color: #18206d60;
+                padding-top: 6px;
+            }
+        }
+        &_right{
+            display: flex;
+            width: 447.59px;
+            height: 450px;
+            background: darkcyan;
+            justify-content: center;
+        }
+    }
+    &_text{
+        font-family: $inter;
+        font-size: 48px;
+        font-weight: 600;
+        color: rgba(24, 33, 109, 1);
+    }
+}
+.footer{
+    display: flex;
+    width: 1196px;
+    height: 257px;
+    background: green;
+    margin: 0 auto;
+    margin-top: 120px;
+    justify-content: space-between;
+    &_download{
+        width: 248px;
+        height: 166px;
+        background: #005eec8a;
+        &_logo{
+            width: 158.4px;
+            height: 45px;
+            &_footerLogo{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_textContainer{
+            font-family: $inter;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #18206d90;
+            margin-top: 19px;
+        }
+        &_btns{
+            display: flex;
+            width: 215px;
+            height: 30px;
+            background: firebrick;
+            margin-top: 20px;
+            justify-content: space-between;
+            &_android{
+                display: flex;
+                Width:100px;
+                Height:30px;
+                border: none;
+                background: rgba(24, 33, 109, 1);
+                border-radius: 5px;
+                &_img{
+                    width:17.07px;
+                    height:19.07px;
+                }
+                &_text{
+                    width:62.67px;
+                    height:20px;
+
+                }
+            }
+            &_ios{
+                cursor: pointer;
+                Width:100px;
+                Height:30px;
+                background:rgba(24, 33, 109, 1);
+                border-radius: 5px;
+            }
+        }
+    }
+    &_Resources{
+        width: 113px;
+        height: 257px;
+        background: rgb(12, 206, 232);
+    }
+    &_products{
+        width: 117px;
+        height: 257px;
+        background: greenyellow;
+    }
+    &_more{
+        width: 68px;
+        height:257px;
+        background: hotpink;
+    }
+    &_contact{
+        width: 300px;
+        height: 120px;
+        background: darkmagenta;
     }
 }
 span{
