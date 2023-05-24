@@ -1199,7 +1199,8 @@ $poppins:'Poppins', sans-serif;
                 background: rgba(24, 33, 109, 1);
                 border-radius: 5px;
                 &_img{
-
+                    width: 17.07px;
+                    height: 19.07px;
                 }
                 &_text{
                     width:62.67px;
@@ -1222,20 +1223,15 @@ $poppins:'Poppins', sans-serif;
                     Height:19.16px;
                 }
                 &_texts{
+                    display: flex;
+                    align-items: center;
                     width: 59.88px;
                     height: 21.66px;
                     background: firebrick;
-                    row-gap: 3.35px;
-                    &_top{
-                        margin-left: 3px;
-                        Width:55.09px;
-                        Height:5.25px;
-                        background: rebeccapurple;
-                    }
-                    &_bottom{
+                    padding-top: 5px;
+                    &_img{
                         width: 59.88px;
-                        height: 13.07px;
-                        background:darkgoldenrod;
+                        height: 21.66px;
                     }
                 }
             }
