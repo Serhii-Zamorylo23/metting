@@ -1194,12 +1194,12 @@ $poppins:'Poppins', sans-serif;
                 display: flex;
                 Width:100px;
                 Height:30px;
+                cursor: pointer;
                 border: none;
                 background: rgba(24, 33, 109, 1);
                 border-radius: 5px;
                 &_img{
-                    width:17.07px;
-                    height:19.07px;
+
                 }
                 &_text{
                     width:62.67px;
@@ -1208,11 +1208,36 @@ $poppins:'Poppins', sans-serif;
                 }
             }
             &_ios{
+                display: flex;
                 cursor: pointer;
                 Width:100px;
                 Height:30px;
                 background:rgba(24, 33, 109, 1);
                 border-radius: 5px;
+                align-items: center;
+                padding-left: 8.94px;
+                column-gap: 6.67px;
+                &_img{
+                    Width:15.59px;
+                    Height:19.16px;
+                }
+                &_texts{
+                    width: 59.88px;
+                    height: 21.66px;
+                    background: firebrick;
+                    row-gap: 3.35px;
+                    &_top{
+                        margin-left: 3px;
+                        Width:55.09px;
+                        Height:5.25px;
+                        background: rebeccapurple;
+                    }
+                    &_bottom{
+                        width: 59.88px;
+                        height: 13.07px;
+                        background:darkgoldenrod;
+                    }
+                }
             }
         }
     }

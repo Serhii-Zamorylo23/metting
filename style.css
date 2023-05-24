@@ -1202,24 +1202,47 @@
   display: flex;
   Width: 100px;
   Height: 30px;
+  cursor: pointer;
   border: none;
   background: rgb(24, 33, 109);
   border-radius: 5px;
-}
-.footer_download_btns_android_img {
-  width: 17.07px;
-  height: 19.07px;
 }
 .footer_download_btns_android_text {
   width: 62.67px;
   height: 20px;
 }
 .footer_download_btns_ios {
+  display: flex;
   cursor: pointer;
   Width: 100px;
   Height: 30px;
   background: rgb(24, 33, 109);
   border-radius: 5px;
+  align-items: center;
+  padding-left: 8.94px;
+  -moz-column-gap: 6.67px;
+       column-gap: 6.67px;
+}
+.footer_download_btns_ios_img {
+  Width: 15.59px;
+  Height: 19.16px;
+}
+.footer_download_btns_ios_texts {
+  width: 59.88px;
+  height: 21.66px;
+  background: firebrick;
+  row-gap: 3.35px;
+}
+.footer_download_btns_ios_texts_top {
+  margin-left: 3px;
+  Width: 55.09px;
+  Height: 5.25px;
+  background: rebeccapurple;
+}
+.footer_download_btns_ios_texts_bottom {
+  width: 59.88px;
+  height: 13.07px;
+  background: darkgoldenrod;
 }
 .footer_Resources {
   width: 113px;
