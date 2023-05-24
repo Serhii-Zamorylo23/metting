@@ -8,7 +8,6 @@ $poppins:'Poppins', sans-serif;
     display: flex;
     width: 1400px;
     height: 52px;
-    background: saddlebrown;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +28,6 @@ $poppins:'Poppins', sans-serif;
     &_linkdiv{
         width: 507px;
         height: 20px;
-        background: violet;
         &_nav{
             display: flex;
             justify-content: space-between;
@@ -68,14 +66,12 @@ $poppins:'Poppins', sans-serif;
     color: rgba(24, 33, 109, 1);
 }
 .main{
-    background: darkmagenta;
     width: 1196px;
     margin: 0 auto;
 
     &_left{
         width:498px;
         height: 292px;
-        background: darkgreen;
         align-items: center;
         &_title{
             font-family: $inter;
@@ -114,7 +110,6 @@ $poppins:'Poppins', sans-serif;
     &_imgAndText{
         display: flex;
         width: 1189px;
-        background: darkorange;
         margin: 0 auto;
         margin-top: 50px;
         align-items: center;
@@ -122,7 +117,6 @@ $poppins:'Poppins', sans-serif;
     &_stats{
         width: 1107px;
         height: 150px;
-        background: tomato;
         display: flex;
         justify-content: space-between;
         &_left{
@@ -140,12 +134,10 @@ $poppins:'Poppins', sans-serif;
             display: flex;
             width: 336px;
             height: 142px;
-            background: darkgoldenrod;
             justify-content: space-between;
             &_download{
                 width: 137px;
                 height: 134px;
-                background: yellow;
                 &_title{
                     font-family: $inter;
                     font-weight: 700;
@@ -167,7 +159,6 @@ $poppins:'Poppins', sans-serif;
             &_rating{
                 width: 107.28px;
                 height: 134px;
-                background: blue;
                 &_title{
                     font-family: $inter;
                     font-weight: 700;
@@ -193,7 +184,6 @@ $poppins:'Poppins', sans-serif;
         display: flex;
         width: 1110px;
         height: 34.88px;
-        background: burlywood;
         margin-left: 30px;
         align-items: center;
         column-gap: 79.73px;
@@ -239,12 +229,10 @@ $poppins:'Poppins', sans-serif;
     &_advantages{
         display: flex;
         width: 1120px;
-        background: rgb(100, 5, 0);
         column-gap: 80px;
         &_price{
             width: 320px;
             height: 267px;
-            background: firebrick;
             &_SVG{
                 width: 72px;
                 height: 72px;
@@ -261,7 +249,7 @@ $poppins:'Poppins', sans-serif;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 26px;
-                color: gray;
+                color: #18206d60;
                 padding-top: 14px;
             }
             &_more{
@@ -274,7 +262,6 @@ $poppins:'Poppins', sans-serif;
         }
         &_Collaboration{
             width: 320px;
-            background: rgb(139, 132, 0);
             &_medalsvg{
                 width: 55.58px;
                 height: 72px;
@@ -295,7 +282,7 @@ $poppins:'Poppins', sans-serif;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 26px;
-                color: gray;
+                color: #18206d60;
             }
             &_more{
                 font-family: $inter;
@@ -310,14 +297,13 @@ $poppins:'Poppins', sans-serif;
         display: flex;
         width: 100%;
         height: 593px;
-        background: #005FEC;
+        background: #0066ff05;
         margin-top: 130px;
         align-items: center;
         column-gap: 10px;
         &_leftContent{
             width: 487px;
             height: 307px;
-            background: tomato;
             &_title{
                 font-family: $inter;
                 font-weight: 600;
@@ -330,6 +316,7 @@ $poppins:'Poppins', sans-serif;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 26px;
+                color: #18206d80;
             }
             &_btn{
                 cursor: pointer;
@@ -337,7 +324,7 @@ $poppins:'Poppins', sans-serif;
                 height: 52px;
                 border-radius: 6px;
                 border: none;
-                background: #a9ec00;
+                background: #005FEC;
                 color: #FFFFFF;
                 margin-top: 40px;
             }
@@ -352,7 +339,6 @@ $poppins:'Poppins', sans-serif;
         display: flex;
         width: 1091px;
         height: 508px;
-        background: salmon;
         &_contentleft{
             width: 400px;
             height: 450px;
@@ -423,7 +409,6 @@ $poppins:'Poppins', sans-serif;
         &_contentRight{
             width: 496px;
             height: 444px;
-            background: saddlebrown;
             margin-left: 196px;
             &_title{
                 width: 496px;
@@ -580,19 +565,16 @@ $poppins:'Poppins', sans-serif;
         display: flex;
         width: 1155px;
         height: 620px;
-        background: darkkhaki;
         margin-top: 80px;
         column-gap: 45px;
         &_Basic{
             Width:355px;
             Height:620px;
-            background: forestgreen;
             border: 1px solid #232629;
             border-radius: 10px;
             &_header{
                 width: 355px;
                 height: 160px;
-                background-color: red;
                 border-bottom: 1px solid #000000;
                 border-radius: 10px;
                 border-bottom-left-radius:0;
@@ -617,7 +599,6 @@ $poppins:'Poppins', sans-serif;
             &_advantages{
                 width: 249px;
                 height: 269px;
-                background: tomato;
                 margin-top: 39px;
                 margin-left: 41px;
                &_number{
@@ -754,13 +735,11 @@ $poppins:'Poppins', sans-serif;
         &_Pro{
             Width:355px;
             Height:620px;
-            background: rgb(139, 81, 34);
             border: 1px solid #232629;
             border-radius: 10px;
             &_header{
                 width: 355px;
                 height: 160px;
-                background-color: red;
                 border-bottom: 1px solid #000000;
                 border-radius: 10px;
                 border-bottom-left-radius:0;
@@ -785,7 +764,6 @@ $poppins:'Poppins', sans-serif;
             &_advantages{
                 width: 249px;
                 height: 269px;
-                background: tomato;
                 margin-top: 39px;
                 margin-left: 41px;
                &_number{
@@ -921,13 +899,11 @@ $poppins:'Poppins', sans-serif;
         &_Business{
             Width:355px;
             Height:620px;
-            background: rgb(34, 139, 59);
             border: 1px solid #232629;
             border-radius: 10px;
             &_header{
                 width: 355px;
                 height: 160px;
-                background-color: red;
                 border-bottom: 1px solid #000000;
                 border-radius: 10px;
                 border-bottom-left-radius:0;
@@ -952,7 +928,6 @@ $poppins:'Poppins', sans-serif;
             &_advantages{
                 width: 249px;
                 height: 269px;
-                background: tomato;
                 margin-top: 39px;
                 margin-left: 41px;
                &_number{
@@ -1099,19 +1074,17 @@ $poppins:'Poppins', sans-serif;
             width: 6px;
             height: 6px;
             border-radius: 50%;
-            background: #005eec10
+            background: #005eec20;
         }
     }
     &_TestimonialContainer{
         display: flex;
         width: 1168px;
         height: 450px;
-        background: gold;
         justify-content: space-between;
         margin-top: 55px;
         &_left{
             width: 616px;
-            background: salmon;
             margin-top: 55px;
             &_feedback{
                 font-family: $inter;
@@ -1122,7 +1095,6 @@ $poppins:'Poppins', sans-serif;
             }
             &_personalData{
                 width: 130px;
-                background: gray;
                 column-gap: 6px;
                 margin-top: 33px;
             }
@@ -1144,7 +1116,6 @@ $poppins:'Poppins', sans-serif;
             display: flex;
             width: 447.59px;
             height: 450px;
-            background: darkcyan;
             justify-content: center;
         }
     }
@@ -1158,15 +1129,14 @@ $poppins:'Poppins', sans-serif;
 .footer{
     display: flex;
     width: 1196px;
-    height: 257px;
-    background: green;
+    height: 317px;
     margin: 0 auto;
     margin-top: 120px;
     justify-content: space-between;
+    border-bottom:1px solid #18206d10;
     &_download{
         width: 248px;
         height: 166px;
-        background: #005eec8a;
         &_logo{
             width: 158.4px;
             height: 45px;
@@ -1240,23 +1210,59 @@ $poppins:'Poppins', sans-serif;
     &_Resources{
         width: 113px;
         height: 257px;
-        background: rgb(12, 206, 232);
+        &_list{
+            list-style: none;
+            margin-top: 31px;
+            line-height: 40px;
+        }
     }
     &_products{
         width: 117px;
         height: 257px;
-        background: greenyellow;
+        &_list{
+            list-style: none;
+            margin-top: 31px;
+            line-height: 40px;
+        }
     }
     &_more{
         width: 68px;
         height:257px;
-        background: hotpink;
+        &_list{
+            list-style: none;
+            margin-top: 31px;
+            line-height: 40px;
+        }
     }
     &_contact{
-        width: 300px;
-        height: 120px;
-        background: darkmagenta;
+        width: 250px;
+        height: 141px;
+        &_subtitle{
+            font-family: $inter;
+            font-weight: 400;
+            font-size: 16px;
+            color: #18206d80;
+            line-height: 40px;
+        }
     }
+}
+.font{
+    font-family: $inter;
+    font-weight: 600;
+    font-size: 22px;
+    color:rgba(24, 33, 109, 1);
+}
+.listfont{
+    font-family: $inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #18206d90;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #18206d80;
 }
 span{
     color:rgba(109, 109, 109, 1);

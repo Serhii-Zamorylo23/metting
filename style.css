@@ -2,7 +2,6 @@
   display: flex;
   width: 1400px;
   height: 52px;
-  background: saddlebrown;
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +24,6 @@
 .header_linkdiv {
   width: 507px;
   height: 20px;
-  background: violet;
 }
 .header_linkdiv_nav {
   display: flex;
@@ -67,14 +65,12 @@
 }
 
 .main {
-  background: darkmagenta;
   width: 1196px;
   margin: 0 auto;
 }
 .main_left {
   width: 498px;
   height: 292px;
-  background: darkgreen;
   align-items: center;
 }
 .main_left_title {
@@ -113,7 +109,6 @@
 .main_imgAndText {
   display: flex;
   width: 1189px;
-  background: darkorange;
   margin: 0 auto;
   margin-top: 50px;
   align-items: center;
@@ -121,7 +116,6 @@
 .main_stats {
   width: 1107px;
   height: 150px;
-  background: tomato;
   display: flex;
   justify-content: space-between;
 }
@@ -140,13 +134,11 @@
   display: flex;
   width: 336px;
   height: 142px;
-  background: darkgoldenrod;
   justify-content: space-between;
 }
 .main_stats_right_download {
   width: 137px;
   height: 134px;
-  background: yellow;
 }
 .main_stats_right_download_title {
   font-family: "Inter", sans-serif;
@@ -168,7 +160,6 @@
 .main_stats_right_rating {
   width: 107.28px;
   height: 134px;
-  background: blue;
 }
 .main_stats_right_rating_title {
   font-family: "Inter", sans-serif;
@@ -192,7 +183,6 @@
   display: flex;
   width: 1110px;
   height: 34.88px;
-  background: burlywood;
   margin-left: 30px;
   align-items: center;
   -moz-column-gap: 79.73px;
@@ -239,14 +229,12 @@
 .main_advantages {
   display: flex;
   width: 1120px;
-  background: rgb(100, 5, 0);
   -moz-column-gap: 80px;
        column-gap: 80px;
 }
 .main_advantages_price {
   width: 320px;
   height: 267px;
-  background: firebrick;
 }
 .main_advantages_price_SVG {
   width: 72px;
@@ -264,7 +252,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: gray;
+  color: rgba(24, 32, 109, 0.3764705882);
   padding-top: 14px;
 }
 .main_advantages_price_more {
@@ -276,7 +264,6 @@
 }
 .main_advantages_Collaboration {
   width: 320px;
-  background: rgb(139, 132, 0);
 }
 .main_advantages_Collaboration_medalsvg {
   width: 55.58px;
@@ -298,7 +285,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: gray;
+  color: rgba(24, 32, 109, 0.3764705882);
 }
 .main_advantages_Collaboration_more {
   font-family: "Inter", sans-serif;
@@ -311,7 +298,7 @@
   display: flex;
   width: 100%;
   height: 593px;
-  background: #005FEC;
+  background: rgba(0, 102, 255, 0.0196078431);
   margin-top: 130px;
   align-items: center;
   -moz-column-gap: 10px;
@@ -320,7 +307,6 @@
 .main_download_leftContent {
   width: 487px;
   height: 307px;
-  background: tomato;
 }
 .main_download_leftContent_title {
   font-family: "Inter", sans-serif;
@@ -334,6 +320,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  color: rgba(24, 32, 109, 0.5019607843);
 }
 .main_download_leftContent_btn {
   cursor: pointer;
@@ -341,7 +328,7 @@
   height: 52px;
   border-radius: 6px;
   border: none;
-  background: #a9ec00;
+  background: #005FEC;
   color: #FFFFFF;
   margin-top: 40px;
 }
@@ -353,7 +340,6 @@
   display: flex;
   width: 1091px;
   height: 508px;
-  background: salmon;
 }
 .main_freeTrall_contentleft {
   width: 400px;
@@ -426,7 +412,6 @@
 .main_freeTrall_contentRight {
   width: 496px;
   height: 444px;
-  background: saddlebrown;
   margin-left: 196px;
 }
 .main_freeTrall_contentRight_title {
@@ -585,7 +570,6 @@
   display: flex;
   width: 1155px;
   height: 620px;
-  background: darkkhaki;
   margin-top: 80px;
   -moz-column-gap: 45px;
        column-gap: 45px;
@@ -593,14 +577,12 @@
 .main_pricePlan_Basic {
   Width: 355px;
   Height: 620px;
-  background: forestgreen;
   border: 1px solid #232629;
   border-radius: 10px;
 }
 .main_pricePlan_Basic_header {
   width: 355px;
   height: 160px;
-  background-color: red;
   border-bottom: 1px solid #000000;
   border-radius: 10px;
   border-bottom-left-radius: 0;
@@ -625,7 +607,6 @@
 .main_pricePlan_Basic_advantages {
   width: 249px;
   height: 269px;
-  background: tomato;
   margin-top: 39px;
   margin-left: 41px;
 }
@@ -760,14 +741,12 @@
 .main_pricePlan_Pro {
   Width: 355px;
   Height: 620px;
-  background: rgb(139, 81, 34);
   border: 1px solid #232629;
   border-radius: 10px;
 }
 .main_pricePlan_Pro_header {
   width: 355px;
   height: 160px;
-  background-color: red;
   border-bottom: 1px solid #000000;
   border-radius: 10px;
   border-bottom-left-radius: 0;
@@ -792,7 +771,6 @@
 .main_pricePlan_Pro_advantages {
   width: 249px;
   height: 269px;
-  background: tomato;
   margin-top: 39px;
   margin-left: 41px;
 }
@@ -926,14 +904,12 @@
 .main_pricePlan_Business {
   Width: 355px;
   Height: 620px;
-  background: rgb(34, 139, 59);
   border: 1px solid #232629;
   border-radius: 10px;
 }
 .main_pricePlan_Business_header {
   width: 355px;
   height: 160px;
-  background-color: red;
   border-bottom: 1px solid #000000;
   border-radius: 10px;
   border-bottom-left-radius: 0;
@@ -958,7 +934,6 @@
 .main_pricePlan_Business_advantages {
   width: 249px;
   height: 269px;
-  background: tomato;
   margin-top: 39px;
   margin-left: 41px;
 }
@@ -1104,19 +1079,17 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: rgba(0, 94, 236, 0.062745098);
+  background: rgba(0, 94, 236, 0.1254901961);
 }
 .main_TestimonialContainer {
   display: flex;
   width: 1168px;
   height: 450px;
-  background: gold;
   justify-content: space-between;
   margin-top: 55px;
 }
 .main_TestimonialContainer_left {
   width: 616px;
-  background: salmon;
   margin-top: 55px;
 }
 .main_TestimonialContainer_left_feedback {
@@ -1128,7 +1101,6 @@
 }
 .main_TestimonialContainer_left_personalData {
   width: 130px;
-  background: gray;
   -moz-column-gap: 6px;
        column-gap: 6px;
   margin-top: 33px;
@@ -1150,7 +1122,6 @@
   display: flex;
   width: 447.59px;
   height: 450px;
-  background: darkcyan;
   justify-content: center;
 }
 .main_text {
@@ -1163,16 +1134,15 @@
 .footer {
   display: flex;
   width: 1196px;
-  height: 257px;
-  background: green;
+  height: 317px;
   margin: 0 auto;
   margin-top: 120px;
   justify-content: space-between;
+  border-bottom: 1px solid rgba(24, 32, 109, 0.062745098);
 }
 .footer_download {
   width: 248px;
   height: 166px;
-  background: rgba(0, 94, 236, 0.5411764706);
 }
 .footer_download_logo {
   width: 158.4px;
@@ -1246,22 +1216,61 @@
 .footer_Resources {
   width: 113px;
   height: 257px;
-  background: rgb(12, 206, 232);
+}
+.footer_Resources_list {
+  list-style: none;
+  margin-top: 31px;
+  line-height: 40px;
 }
 .footer_products {
   width: 117px;
   height: 257px;
-  background: greenyellow;
+}
+.footer_products_list {
+  list-style: none;
+  margin-top: 31px;
+  line-height: 40px;
 }
 .footer_more {
   width: 68px;
   height: 257px;
-  background: hotpink;
+}
+.footer_more_list {
+  list-style: none;
+  margin-top: 31px;
+  line-height: 40px;
 }
 .footer_contact {
-  width: 300px;
-  height: 120px;
-  background: darkmagenta;
+  width: 250px;
+  height: 141px;
+}
+.footer_contact_subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(24, 32, 109, 0.5019607843);
+  line-height: 40px;
+}
+
+.font {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: rgb(24, 33, 109);
+}
+
+.listfont {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(24, 32, 109, 0.5647058824);
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: rgba(24, 32, 109, 0.5019607843);
 }
 
 span {
